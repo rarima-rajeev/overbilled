@@ -2,6 +2,8 @@
 
 **An AI agent that audits medical bills against billing rules and the hospital's own posted prices, then drafts a cited dispute letter.**
 
+**Live site: [overbilled-ai.vercel.app](https://overbilled-ai.vercel.app/)**
+
 > Educational portfolio demo. All bills, patients, prices and the hospital are synthetic. Not medical, legal or billing advice.
 
 ## What it shows (AI PM skills)
@@ -45,7 +47,7 @@ To regenerate them:
 
 ## Deploy (Vercel)
 
-Import the repo in Vercel. It detects Vite automatically (build command `npm run build`, output `dist`). No environment variables are needed on Vercel.
+Deployed on Vercel at https://overbilled-ai.vercel.app/ and redeployed automatically on every push to `main`. Vercel detects Vite (build command `npm run build`, output `dist`). No environment variables are needed on Vercel.
 
 ## Data and safety
 
